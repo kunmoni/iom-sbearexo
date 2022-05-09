@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Test1" key="{126EA298-0CE8-47CB-A2B8-7C9F6A19324D}" path="Test1.tcKDTest" />
+		<child name="GroupOrder" key="{20FC6DA5-777E-405F-9EB0-1DEE0AF45DEF}" path="GroupOrder.tcKDTest" />
+		<child name="ResetTest" key="{72EDA68A-C68D-4A5C-A480-F273B09AE775}" path="ResetTest.tcKDTest" />
+		<child name="VerifyData" key="{03206AD6-365D-4258-A36A-2FD80674B8A2}" path="VerifyData.tcKDTest" />
+		<child name="ChangeDeleteData" key="{A14DACBE-CDB8-42E0-BB4B-0E2699B492F5}" path="ChangeDeleteData.tcKDTest" />
+		<child name="Logout" key="{7293D2A2-258E-4DCB-83B8-844F06E8BF5A}" path="Logout.tcKDTest" />
+	</children>
+</Root>
