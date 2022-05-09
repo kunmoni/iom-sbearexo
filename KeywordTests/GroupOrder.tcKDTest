@@ -39,7 +39,7 @@
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Var1" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="User" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageWebOrdersLogin2.formAspnetform.textboxUsername;" />
 				</Data>
@@ -55,7 +55,7 @@
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Var2" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Password" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageWebOrdersLogin2.formAspnetform.passwordboxPassword;" />
 				</Data>
@@ -482,10 +482,10 @@
 	</TestData>
 	<Variables Version="4" Key="{CD779890-CA51-43C6-953C-C970AA28B2F6}">
 		<Items>
-			<Variable Name="Var1" Type="String" Local="False" Descr="user">
+			<Variable Name="User" Type="String" Local="False" Descr="user">
 				<DefValue StrValue="Tester" />
 			</Variable>
-			<Variable Name="Var2" Type="Password" Local="False" Descr="pw">
+			<Variable Name="Password" Type="Password" Local="False" Descr="pw">
 				<DefValue StrValue="380039003600310036003300440031004600340044003800410042004600340045004300390038004300370046003100380030003900380043003200300037004200460042003000" />
 			</Variable>
 			<Variable Name="OrderTable" Type="DB Table" Local="False">
